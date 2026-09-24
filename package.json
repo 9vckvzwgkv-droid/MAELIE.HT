@@ -1,0 +1,19 @@
+{
+  "name": "maelie-boutique",
+  "version": "6.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "backup": "node scripts/backup.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "stripe": "^18.5.0",
+    "nodemailer": "^7.0.6"
+  }
+}

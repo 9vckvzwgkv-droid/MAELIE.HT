@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /api/
+Disallow: /data/
+
+# Remplacez VOTRE-DOMAINE par votre domaine réel avant mise en ligne.
+Sitemap: https://VOTRE-DOMAINE/sitemap.xml
